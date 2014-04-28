@@ -212,6 +212,12 @@ MACHINEBUILD=sogno8800hd
 else ifeq ($(MACHINEBUILD),uniboxhde)
 MACHINE=blackbox7405
 MACHINEBUILD=uniboxhde
+else ifeq ($(MACHINEBUILD),enfinity)
+MACHINE=ew7358
+MACHINEBUILD=enfinity
+else ifeq ($(MACHINEBUILD),visionnet)
+MACHINE=ew7358
+MACHINEBUILD=visionnet
 endif
 
 initialize: init
