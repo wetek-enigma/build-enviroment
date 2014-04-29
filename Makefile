@@ -215,9 +215,9 @@ MACHINEBUILD=uniboxhde
 else ifeq ($(MACHINEBUILD),enfinity)
 MACHINE=ew7358
 MACHINEBUILD=enfinity
-else ifeq ($(MACHINEBUILD),visionnet)
+else ifeq ($(MACHINEBUILD),marvel1)
 MACHINE=ew7358
-MACHINEBUILD=visionnet
+MACHINEBUILD=marvel1
 endif
 
 initialize: init
