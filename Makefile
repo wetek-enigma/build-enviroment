@@ -146,6 +146,9 @@ MACHINEBUILD=ventonhdx
 else ifeq ($(MACHINEBUILD),sezam5000hd)
 MACHINE=inihdx
 MACHINEBUILD=sezam5000hd
+else ifeq ($(MACHINEBUILD),beyonwizt3)
+MACHINE=inihdx
+MACHINEBUILD=beyonwizt3
 else ifeq ($(MACHINEBUILD),sezam1000hd)
 MACHINE=inihde
 MACHINEBUILD=sezam1000hd
@@ -164,6 +167,9 @@ MACHINEBUILD=mbmini
 else ifeq ($(MACHINEBUILD),atemio5x00)
 MACHINE=inihde
 MACHINEBUILD=atemio5x00
+else ifeq ($(MACHINEBUILD),atemionemesis)
+MACHINE=inihdp
+MACHINEBUILD=atemionemesis
 else ifeq ($(MACHINEBUILD),mbtwin)
 MACHINE=inihdx
 MACHINEBUILD=mbtwin
