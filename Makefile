@@ -297,6 +297,9 @@ MACHINEBUILD=marvel1
 else ifeq ($(MACHINEBUILD),x2plus)
 MACHINE=ew7356
 MACHINEBUILD=x2plus
+else ifeq ($(MACHINEBUILD),bre2ze)
+MACHINE=ew7362
+MACHINEBUILD=bre2ze
 
 else ifeq ($(MACHINEBUILD),mutant2400)
 MACHINE=hd2400
