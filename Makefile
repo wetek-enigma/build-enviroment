@@ -379,6 +379,9 @@ MACHINEBUILD=enibox
 else ifeq ($(MACHINEBUILD),mago)
 MACHINE=vg5000
 MACHINEBUILD=mago
+else ifeq ($(MACHINEBUILD),tyrant)
+MACHINE=vg1000
+MACHINEBUILD=tyrant
 
 else ifeq ($(MACHINEBUILD),zgemmash1)
 MACHINE=sh1
