@@ -151,9 +151,9 @@ MACHINEBUILD=optimussos2plus
 else ifeq ($(MACHINEBUILD),optimussos3plus)
 MACHINE=dags3
 MACHINEBUILD=optimussos3plus
-else ifeq ($(MACHINEBUILD),force2soild)
+else ifeq ($(MACHINEBUILD),force2solid)
 MACHINE=dags5
-MACHINEBUILD=force2soild
+MACHINEBUILD=force2solid
 
 else ifeq ($(MACHINEBUILD),classm)
 MACHINE=odinm7
