@@ -28,6 +28,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-airdigital \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-azbox \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-blackbox \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ceryon \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-cube \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dags \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-dream \
@@ -395,6 +396,10 @@ MACHINEBUILD=zgemmash1
 else ifeq ($(MACHINEBUILD),zgemmas2s)
 MACHINE=sh1
 MACHINEBUILD=zgemmas2s
+
+else ifeq ($(MACHINEBUILD),p62)
+MACHINE=7000s
+MACHINEBUILD=p62
 
 endif
 
