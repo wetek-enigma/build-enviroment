@@ -392,6 +392,10 @@ MACHINEBUILD=mago
 else ifeq ($(MACHINEBUILD),tyrant)
 MACHINE=vg1000
 MACHINEBUILD=tyrant
+else ifeq ($(MACHINEBUILD),xcombo)
+MACHINE=vg2000
+MACHINEBUILD=xcombo
+
 
 else ifeq ($(MACHINEBUILD),zgemmash1)
 MACHINE=sh1
