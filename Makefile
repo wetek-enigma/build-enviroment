@@ -39,6 +39,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gigablue \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ixuss \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-broadmedia \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-odin \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-skylake \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-tripledot \
@@ -425,6 +426,10 @@ MACHINEBUILD=zgemmas2s
 else ifeq ($(MACHINEBUILD),p62)
 MACHINE=7000s
 MACHINEBUILD=p62
+
+else ifeq ($(MACHINEBUILD),broadmedia300)
+MACHINE=g300
+MACHINEBUILD=broadmedia300
 
 endif
 
