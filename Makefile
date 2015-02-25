@@ -425,6 +425,10 @@ MACHINEBUILD=zgemmash2
 else ifeq ($(MACHINEBUILD),zgemmas2s)
 MACHINE=sh1
 MACHINEBUILD=zgemmas2s
+else ifeq ($(MACHINEBUILD),zgemmass)
+MACHINE=sh1
+MACHINEBUILD=zgemmass
+
 
 else ifeq ($(MACHINEBUILD),p62)
 MACHINE=7000s
