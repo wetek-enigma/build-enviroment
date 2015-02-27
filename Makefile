@@ -415,7 +415,6 @@ else ifeq ($(MACHINEBUILD),xcombo)
 MACHINE=vg2000
 MACHINEBUILD=xcombo
 
-
 else ifeq ($(MACHINEBUILD),zgemmash1)
 MACHINE=sh1
 MACHINEBUILD=zgemmash1
@@ -429,10 +428,6 @@ else ifeq ($(MACHINEBUILD),zgemmass)
 MACHINE=sh1
 MACHINEBUILD=zgemmass
 
-
-else ifeq ($(MACHINEBUILD),p62)
-MACHINE=7000s
-MACHINEBUILD=p62
 else ifeq ($(MACHINEBUILD),nano)
 MACHINE=7000s
 MACHINEBUILD=nano
