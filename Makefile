@@ -438,6 +438,9 @@ MACHINEBUILD=nanoc
 else ifeq ($(MACHINEBUILD),broadmedia300)
 MACHINE=g300
 MACHINEBUILD=broadmedia300
+else ifeq ($(MACHINEBUILD),sf3038)
+MACHINE=g300
+MACHINEBUILD=sf3038
 
 endif
 
