@@ -3,6 +3,7 @@
 /meta-*/
 !/meta-openpli/
 !/meta-local/
+!/meta-legacy/
 !/meta-oe-alliance/
 /openembedded-core/
 /sources/
