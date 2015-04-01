@@ -431,7 +431,7 @@ else ifeq ($(MACHINEBUILD),zgemmash1)
 MACHINE=sh1
 MACHINEBUILD=zgemmash1
 else ifeq ($(MACHINEBUILD),zgemmash2)
-MACHINE=sh1
+MACHINE=sh2
 MACHINEBUILD=zgemmash2
 else ifeq ($(MACHINEBUILD),zgemmas2s)
 MACHINE=sh1
