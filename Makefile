@@ -47,6 +47,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xcore \
 	$(CURDIR)/meta-local \
 
 
@@ -453,6 +454,10 @@ MACHINEBUILD=broadmedia300
 else ifeq ($(MACHINEBUILD),sf3038)
 MACHINE=g300
 MACHINEBUILD=sf3038
+
+else ifeq ($(MACHINEBUILD),tomcat)
+MACHINE=xc7362
+MACHINEBUILD=tomcat
 
 endif
 
