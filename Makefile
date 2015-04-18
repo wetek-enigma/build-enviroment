@@ -253,6 +253,8 @@ MACHINE=inihde2
 MACHINEBUILD=atemio6200
 else ifeq ($(MACHINEBUILD),mbminiplus)
 MACHINE=inihde2
+else ifeq ($(MACHINEBUILD),mbhybrid)
+MACHINE=inihde2
 MACHINEBUILD=mbminiplus
 else ifeq ($(MACHINEBUILD),sezammarvel)
 MACHINE=inihdp
