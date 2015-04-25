@@ -451,9 +451,9 @@ MACHINEBUILD=nano
 else ifeq ($(MACHINEBUILD),nanoc)
 MACHINE=7000s
 MACHINEBUILD=nanoc
-else ifeq ($(MACHINEBUILD),nanopro)
+else ifeq ($(MACHINEBUILD),twinboxlcd)
 MACHINE=7100s
-MACHINEBUILD=nanopro
+MACHINEBUILD=twinboxlcd
 
 else ifeq ($(MACHINEBUILD),broadmedia300)
 MACHINE=g300
