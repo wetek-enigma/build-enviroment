@@ -259,6 +259,9 @@ MACHINEBUILD=mbminiplus
 else ifeq ($(MACHINEBUILD),mbhybrid)
 MACHINE=inihde2
 MACHINEBUILD=mbhybrid
+else ifeq ($(MACHINEBUILD),bwidowx2)
+MACHINE=inihde2
+MACHINEBUILD=bwidowx2
 else ifeq ($(MACHINEBUILD),sezammarvel)
 MACHINE=inihdp
 MACHINEBUILD=sezammarvel
