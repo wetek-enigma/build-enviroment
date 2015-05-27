@@ -473,6 +473,9 @@ MACHINEBUILD=sf3038
 else ifeq ($(MACHINEBUILD),tomcat)
 MACHINE=xc7362
 MACHINEBUILD=tomcat
+else ifeq ($(MACHINEBUILD),spycat)
+MACHINE=xc7362
+MACHINEBUILD=spycat
 
 endif
 
