@@ -456,12 +456,9 @@ else ifeq ($(MACHINEBUILD),zgemmass)
 MACHINE=sh1
 MACHINEBUILD=zgemmass
 
-else ifeq ($(MACHINEBUILD),nano)
+else ifeq ($(MACHINEBUILD),mbmicro)
 MACHINE=7000s
-MACHINEBUILD=nano
-else ifeq ($(MACHINEBUILD),nanoc)
-MACHINE=7000s
-MACHINEBUILD=nanoc
+MACHINEBUILD=mbmicro
 else ifeq ($(MACHINEBUILD),twinboxlcd)
 MACHINE=7100s
 MACHINEBUILD=twinboxlcd
