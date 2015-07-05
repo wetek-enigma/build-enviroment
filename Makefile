@@ -486,6 +486,34 @@ else ifeq ($(MACHINEBUILD),vp7358ci)
 MACHINE=xc7358ci
 MACHINEBUILD=vp7358ci
 
+else ifeq ($(MACHINEBUILD),gb800se)
+MACHINE=gb7325
+MACHINEBUILD=gb800se
+else ifeq ($(MACHINEBUILD),gb800ue)
+MACHINE=gb7325
+MACHINEBUILD=gb800ue
+else ifeq ($(MACHINEBUILD),gb800seplus)
+MACHINE=gb7358
+MACHINEBUILD=gb800seplus
+else ifeq ($(MACHINEBUILD),gb800ueplus)
+MACHINE=gb7358
+MACHINEBUILD=gb800ueplus
+else ifeq ($(MACHINEBUILD),gbipbox)
+MACHINE=gb7358
+MACHINEBUILD=gbipbox
+else ifeq ($(MACHINEBUILD),gbultrase)
+MACHINE=gb7362
+MACHINEBUILD=gbultrase
+else ifeq ($(MACHINEBUILD),gbultraue)
+MACHINE=gb7362
+MACHINEBUILD=gbultraue
+else ifeq ($(MACHINEBUILD),gbx1)
+MACHINE=gb7362
+MACHINEBUILD=gbx1
+else ifeq ($(MACHINEBUILD),gbx3)
+MACHINE=gb7362
+MACHINEBUILD=gbx3
+
 endif
 
 initialize: init
