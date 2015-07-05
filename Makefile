@@ -119,22 +119,22 @@ else ifeq ($(MACHINEBUILD),mediabox)
 MACHINE=dags7335
 MACHINEBUILD=mediabox
 else ifeq ($(MACHINEBUILD),iqonios200hd)
-MACHINE=dags2
+MACHINE=dags7335
 MACHINEBUILD=iqonios200hd
 else ifeq ($(MACHINEBUILD),roxxs200hd)
-MACHINE=dags2
+MACHINE=dags7335
 MACHINEBUILD=roxxs200hd
 else ifeq ($(MACHINEBUILD),mediaart200hd)
-MACHINE=dags2
+MACHINE=dags7335
 MACHINEBUILD=mediaart200hd
 else ifeq ($(MACHINEBUILD),optimussos2)
-MACHINE=dags2
+MACHINE=dags7335
 MACHINEBUILD=optimussos2
 else ifeq ($(MACHINEBUILD),tmnano2super)
-MACHINE=dags4
+MACHINE=dags7356
 MACHINEBUILD=tmnano2super
 else ifeq ($(MACHINEBUILD),tmnano3t)
-MACHINE=dags4
+MACHINE=dags7356
 MACHINEBUILD=tmnano3t
 else ifeq ($(MACHINEBUILD),tmnanose)
 MACHINE=dags7362
