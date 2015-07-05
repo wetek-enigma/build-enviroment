@@ -89,34 +89,34 @@ $(BBLAYERS):
 
 setupmbuild:
 ifeq ($(MACHINEBUILD),tm2t)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=tm2t
 else ifeq ($(MACHINEBUILD),tmnano)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=tmnano
 else ifeq ($(MACHINEBUILD),tmnano2t)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=tmnano2t
 else ifeq ($(MACHINEBUILD),tmsingle)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=tmsingle
 else ifeq ($(MACHINEBUILD),tmtwin)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=tmtwin
 else ifeq ($(MACHINEBUILD),iqonios100hd)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=iqonios100hd
 else ifeq ($(MACHINEBUILD),iqonios300hd)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=iqonios300hd
 else ifeq ($(MACHINEBUILD),iqonios300hdv2)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=iqonios300hdv2
 else ifeq ($(MACHINEBUILD),optimussos1)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=optimussos1
 else ifeq ($(MACHINEBUILD),mediabox)
-MACHINE=dags1
+MACHINE=dags7335
 MACHINEBUILD=mediabox
 else ifeq ($(MACHINEBUILD),iqonios200hd)
 MACHINE=dags2
@@ -137,46 +137,46 @@ else ifeq ($(MACHINEBUILD),tmnano3t)
 MACHINE=dags4
 MACHINEBUILD=tmnano3t
 else ifeq ($(MACHINEBUILD),tmnanose)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=tmnanose
 else ifeq ($(MACHINEBUILD),tmnanosecombo)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=tmnanosecombo
 else ifeq ($(MACHINEBUILD),force1)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=force1
 else ifeq ($(MACHINEBUILD),force1plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=force1plus
 else ifeq ($(MACHINEBUILD),megaforce1plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=megaforce1plus
 else ifeq ($(MACHINEBUILD),worldvisionf1)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=worldvisionf1
 else ifeq ($(MACHINEBUILD),worldvisionf1plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=worldvisionf1plus
 else ifeq ($(MACHINEBUILD),optimussos1plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=optimussos1plus
 else ifeq ($(MACHINEBUILD),optimussos2plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=optimussos2plus
 else ifeq ($(MACHINEBUILD),optimussos3plus)
-MACHINE=dags3
+MACHINE=dags7356
 MACHINEBUILD=optimussos3plus
 else ifeq ($(MACHINEBUILD),force2plus)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=force2plus
 else ifeq ($(MACHINEBUILD),force2)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=force2
 else ifeq ($(MACHINEBUILD),megaforce2)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=megaforce2
 else ifeq ($(MACHINEBUILD),optimussos)
-MACHINE=dags5
+MACHINE=dags7362
 MACHINEBUILD=optimussos
 
 else ifeq ($(MACHINEBUILD),classm)
