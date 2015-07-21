@@ -44,6 +44,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-odin \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-skylake \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-tripledot \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ultramini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
@@ -489,6 +490,13 @@ MACHINEBUILD=bcm7358
 else ifeq ($(MACHINEBUILD),vp7358ci)
 MACHINE=xc7358ci
 MACHINEBUILD=vp7358ci
+
+else ifeq ($(MACHINEBUILD),xpeedlxcs2)
+MACHINE=ultramini
+MACHINEBUILD=xpeedlxcs2
+else ifeq ($(MACHINEBUILD),xpeedlxcc)
+MACHINE=ultramini
+MACHINEBUILD=xpeedlxcc
 
 endif
 
