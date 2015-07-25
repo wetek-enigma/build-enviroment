@@ -48,6 +48,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-tripledot \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ultramini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
+    $(CURDIR)/meta-oe-alliance/meta-brands/meta-wetek \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xcore \
