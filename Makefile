@@ -471,9 +471,9 @@ else ifeq ($(MACHINEBUILD),odin2hybrid)
 MACHINE=7300s
 MACHINEBUILD=odin2hybrid
 
-else ifeq ($(MACHINEBUILD),broadmedia300)
+else ifeq ($(MACHINEBUILD),mbtwinplus)
 MACHINE=g300
-MACHINEBUILD=broadmedia300
+MACHINEBUILD=mbtwinplus
 else ifeq ($(MACHINEBUILD),sf3038)
 MACHINE=g300
 MACHINEBUILD=sf3038
