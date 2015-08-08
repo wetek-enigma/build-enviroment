@@ -464,6 +464,9 @@ MACHINEBUILD=zgemmass
 else ifeq ($(MACHINEBUILD),mbmicro)
 MACHINE=7000s
 MACHINEBUILD=mbmicro
+else ifeq ($(MACHINEBUILD),e4hd)
+MACHINE=7000s
+MACHINEBUILD=e4hd
 else ifeq ($(MACHINEBUILD),twinboxlcd)
 MACHINE=7100s
 MACHINEBUILD=twinboxlcd
