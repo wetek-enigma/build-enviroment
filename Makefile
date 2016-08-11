@@ -41,6 +41,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-entwopia \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-formuler \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-fulan \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gfutures \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-gigablue \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ixuss \
@@ -51,7 +52,7 @@ BBLAYERS ?= \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-tripledot \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-ultramini \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-vuplus \
-    $(CURDIR)/meta-oe-alliance/meta-brands/meta-wetek \
+	$(CURDIR)/meta-oe-alliance/meta-brands/meta-wetek \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xp \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xtrend \
 	$(CURDIR)/meta-oe-alliance/meta-brands/meta-xcore \
@@ -198,6 +199,9 @@ MACHINEBUILD=fusionhd
 else ifeq ($(MACHINEBUILD),fusionhdse)
 MACHINE=dags7362
 MACHINEBUILD=fusionhdse
+else ifeq ($(MACHINEBUILD),purehd)
+MACHINE=dags7362
+MACHINEBUILD=purehd
 
 else ifeq ($(MACHINEBUILD),classm)
 MACHINE=odinm7
@@ -371,6 +375,9 @@ MACHINEBUILD=bre2ze
 else ifeq ($(MACHINEBUILD),evomini)
 MACHINE=ch62lc
 MACHINEBUILD=evomini
+else ifeq ($(MACHINEBUILD),evominiplus)
+MACHINE=ch625lc
+MACHINEBUILD=evominiplus
 
 
 else ifeq ($(MACHINEBUILD),mutant2400)
@@ -379,6 +386,9 @@ MACHINEBUILD=mutant2400
 else ifeq ($(MACHINEBUILD),quadbox2400)
 MACHINE=hd2400
 MACHINEBUILD=quadbox2400
+else ifeq ($(MACHINEBUILD),mutant11)
+MACHINE=hd11
+MACHINEBUILD=mutant11
 else ifeq ($(MACHINEBUILD),mutant1100)
 MACHINE=hd1100
 MACHINEBUILD=mutant1100
@@ -394,12 +404,15 @@ MACHINEBUILD=vizyonvita
 else ifeq ($(MACHINEBUILD),mutant1200)
 MACHINE=hd1200
 MACHINEBUILD=mutant1200
-else ifeq ($(MACHINEBUILD),mutant1265)
-MACHINE=hd1200
-MACHINEBUILD=mutant1265
 else ifeq ($(MACHINEBUILD),mutant500c)
 MACHINE=hd500c
 MACHINEBUILD=mutant500c
+else ifeq ($(MACHINEBUILD),mutant51)
+MACHINE=hd51
+MACHINEBUILD=mutant51
+else ifeq ($(MACHINEBUILD),ax51)
+MACHINE=hd51
+MACHINEBUILD=ax51
 
 else ifeq ($(MACHINEBUILD),amiko8900)
 MACHINE=spark
@@ -518,6 +531,16 @@ MACHINEBUILD=zgemmah5
 else ifeq ($(MACHINEBUILD),zgemmai55)
 MACHINE=i55
 MACHINEBUILD=zgemmai55
+else ifeq ($(MACHINEBUILD),novaip)
+MACHINE=i55
+MACHINEBUILD=novaip
+else ifeq ($(MACHINEBUILD),novacombo)
+MACHINE=h3
+MACHINEBUILD=novacombo
+else ifeq ($(MACHINEBUILD),novatwin)
+MACHINE=h3
+MACHINEBUILD=novatwin
+
 
 else ifeq ($(MACHINEBUILD),mbmicro)
 MACHINE=7000s
@@ -534,12 +557,31 @@ MACHINEBUILD=twinboxlcd
 else ifeq ($(MACHINEBUILD),singleboxlcd)
 MACHINE=7100s
 MACHINEBUILD=singleboxlcd
+else ifeq ($(MACHINEBUILD),sf208)
+MACHINE=7210s
+MACHINEBUILD=sf208
+else ifeq ($(MACHINEBUILD),sf228)
+MACHINE=7210s
+MACHINEBUILD=sf228
+else ifeq ($(MACHINEBUILD),9910lx)
+MACHINE=7220s
+MACHINEBUILD=9910lx
 else ifeq ($(MACHINEBUILD),odin2hybrid)
 MACHINE=7300s
 MACHINEBUILD=odin2hybrid
 else ifeq ($(MACHINEBUILD),odinplus)
 MACHINE=7400s
 MACHINEBUILD=odinplus
+else ifeq ($(MACHINEBUILD),9911lx)
+MACHINE=7225s
+MACHINEBUILD=9911lx
+else ifeq ($(MACHINEBUILD),sf238)
+MACHINE=7215s
+MACHINEBUILD=sf238
+else ifeq ($(MACHINEBUILD),twinboxlcdci5)
+MACHINE=7105s
+MACHINEBUILD=twinboxlcdci5
+
 
 else ifeq ($(MACHINEBUILD),mbtwinplus)
 MACHINE=g300
@@ -547,6 +589,13 @@ MACHINEBUILD=mbtwinplus
 else ifeq ($(MACHINEBUILD),sf3038)
 MACHINE=g300
 MACHINEBUILD=sf3038
+else ifeq ($(MACHINEBUILD),sf128)
+MACHINE=g100
+MACHINEBUILD=sf128
+else ifeq ($(MACHINEBUILD),sf138)
+MACHINE=g100
+MACHINEBUILD=sf138
+
 
 else ifeq ($(MACHINEBUILD),spycat)
 MACHINE=xc7362
@@ -591,6 +640,9 @@ MACHINEBUILD=gbultraue
 else ifeq ($(MACHINEBUILD),gbx1)
 MACHINE=gb7362
 MACHINEBUILD=gbx1
+else ifeq ($(MACHINEBUILD),gbx2)
+MACHINE=gb73625
+MACHINEBUILD=gbx2
 else ifeq ($(MACHINEBUILD),gbx3)
 MACHINE=gb7362
 MACHINEBUILD=gbx3
